@@ -20,6 +20,12 @@ THIS MEANS ALL DEFAULT SIZING IS CATERED FOR MOBILE THEN LARGER SCREENS ARE HAND
   box-sizing: border-box;
 }
 
+
+/* test class */
+.ddd{
+  border: 5px solid black;
+}
+
 /* typography */
 
 html {
@@ -361,4 +367,19 @@ a {
     font-size: 1.7rem ;
   }
   
+}
+
+
+/* popular plans */
+.plan--popular .card__header{
+  position: relative;
+}
+.plan--popular .card__header::before{
+  content: url('../images/popular.svg');
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+  top: -6px;
+  right: 5%;
+
 }
