@@ -23,7 +23,7 @@ THIS MEANS ALL DEFAULT SIZING IS CATERED FOR MOBILE THEN LARGER SCREENS ARE HAND
 
 /* test class */
 .ddd {
-  border: 5px solid black;
+  border: 5px solid black !important;
 }
 
 /* typography */
@@ -559,7 +559,7 @@ a {
 
 .collapsible__chevron {
   transform: rotate(-90deg);
-  transition: transform 0.3s ;
+  transition: transform 0.3s;
 }
 .collapsible__content {
   /* display: none; */
@@ -577,4 +577,48 @@ a {
   /* display: block; */
   max-height: 100vh;
   opacity: 1;
+}
+
+/* section blocks */
+.block {
+  
+  --padding-vertical: 6rem; /*available to all and its children*/
+
+  padding: var(--padding-vertical) 2rem;
+
+  /* centers all children which doesnt make sense */
+  /* text-align: center; */
+
+}
+
+.block__heading {
+  margin-top: 0;
+}
+
+.block--dark {
+  background: #000;
+  color: #7b858b;
+}
+
+.block--dark .block__heading {
+  color: #fff;
+}
+
+.block--skewed--right {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 80%);
+}
+
+.block--skewed--left {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0 100%);
+}
+
+.block__header{
+  text-align: center;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
 }
