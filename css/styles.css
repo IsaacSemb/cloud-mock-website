@@ -23,7 +23,10 @@ THIS MEANS ALL DEFAULT SIZING IS CATERED FOR MOBILE THEN LARGER SCREENS ARE HAND
 
 /* test class */
 .ddd {
-  border: 5px solid black !important;
+  border: 3px solid red !important;
+}
+.ddd * {
+  border: 2px solid blue !important;
 }
 
 /* typography */
@@ -581,14 +584,12 @@ a {
 
 /* section blocks */
 .block {
-  
   --padding-vertical: 6rem; /*available to all and its children*/
 
   padding: var(--padding-vertical) 2rem;
 
   /* centers all children which doesnt make sense */
   /* text-align: center; */
-
 }
 
 .block__heading {
@@ -614,11 +615,53 @@ a {
   clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0 100%);
 }
 
-.block__header{
+.block__header {
   text-align: center;
 }
 
-.container{
+.container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.nav {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.nav__list {
+  width: 100%;
+  margin: 0;
+}
+
+.nav__item{
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #222;
+}
+
+.nav__item > a{
+  color: #d2d0db;
+  transition: color 0.3s;
+}
+
+
+.nav__item > a:hover{
+  color: #fff;
+}
+
+.nav__toggler{
+  opacity: 0.5;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+
+/* .class.class  -- means it has to have both class on it*/
+.nav.collapsible--expanded .nav__toggler{
+  opacity: 1;
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 5px;
 }
