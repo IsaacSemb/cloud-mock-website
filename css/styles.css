@@ -183,7 +183,7 @@ a {
 
 @media screen and (min-width: 1024) {
   .list--tick .list__item {
-    padding-left: 0;
+    padding-left: 0px;
   }
 }
 
