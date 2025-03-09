@@ -35,7 +35,7 @@ THIS MEANS ALL DEFAULT SIZING IS CATERED FOR MOBILE THEN LARGER SCREENS ARE HAND
 
 /* typography */
 
-::selection{
+::selection {
   background: var(--color-primary);
   color: #fff;
 }
@@ -174,7 +174,6 @@ a {
   list-style-image: url("../images/tick.svg");
   padding-left: 3rem;
   color: var(--color-headings);
-
 }
 
 .list--tick .list__item {
@@ -240,13 +239,12 @@ a {
   white-space: nowrap;
 }
 
-.btn .icon{
+.btn .icon {
   width: 2rem;
   height: 2rem;
   margin-right: 1rem;
   vertical-align: middle;
 }
-
 
 .btn--primary {
   background: var(--color-primary);
@@ -334,6 +332,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -383,7 +382,6 @@ a {
   background: #126de4;
 }
 
-
 .card--secondary .badge--secondary {
   background: #02cdf1;
 }
@@ -412,7 +410,7 @@ a {
 }
 
 /* popular plans */
-.plan--popular{
+.plan--popular {
   transform: scale(1.1);
 }
 .plan--popular .card__header {
@@ -631,8 +629,8 @@ a {
   color: #7b858b;
 }
 
-.block--dark h1, 
-.block--dark h2, 
+.block--dark h1,
+.block--dark h2,
 .block--dark h3 {
   color: #fff;
 }
@@ -650,7 +648,6 @@ a {
 .block__header {
   text-align: center;
   margin-bottom: 4rem;
-
 }
 
 .container {
@@ -724,35 +721,33 @@ a {
   margin: 2rem 0.5rem;
 }
 
-.hero__image{
+.hero__image {
   width: 100%;
 }
 
-
 @media screen and (min-width: 768px) {
-  .hero__content{
+  .hero__content {
     text-align: left;
     align-self: center;
-
   }
 
-  .hero{
+  .hero {
     padding-top: 0;
   }
 }
 
-
 /* domain block */
-.block-domain .input-group{
+.block-domain .input-group {
   box-shadow: 0 0 30px 20px #e6ebee;
   border: 0;
   margin: 4rem auto;
   max-width: 670px;
 }
 
-.block-domain__prices{
+.block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -762,93 +757,79 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .block-domain__prices{
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr) );
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
-  
 }
 
-
-
-
-
 /* plan block */
-.plan{
+.plan {
   transition: transform 0.2s ease-out;
 }
 
-.block-plans .grid{
+.block-plans .grid {
   gap: 8rem 4rem;
 }
 
-.block-plans .card{
+.block-plans .card {
   max-width: 500px;
   margin: 0 auto;
 }
 
-.plan:hover{
+.plan:hover {
   transform: scale(1.05);
 }
 
-.plan-popular:hover{
+.plan-popular:hover {
   transform: scale(1.15);
 }
 
 /* feature block */
 
-.feature{
+.feature {
   gap: 4rem 2rem;
   margin: 12rem 0;
 }
 
-.feature:first-of-type{
+.feature:first-of-type {
   margin: 6rem;
 }
 
-.feature__heading{
+.feature__heading {
   margin: 1rem 0;
 }
 
-.feature__image{
+.feature__image {
   width: 100%;
 }
 
-
 @media screen and (min-width: 768px) {
-  .feature:nth-child(even) .feature__content{
+  .feature:nth-child(even) .feature__content {
     order: 2;
   }
 }
 
-
 /* showcase blocks */
-.block-showcase__image > img{
+.block-showcase__image > img {
   width: 100%;
 }
 
-
-.block-showcase .icon-container{
+.block-showcase .icon-container {
   border-radius: 20px;
   opacity: 0.3;
 }
 
-
-
-
 @media screen and (min-width: 768px) {
-
   /* 
     at big screens since the screen is shared
     each component should take only 50%
   */
 
-  .block-showcase .grid{
-
+  .block-showcase .grid {
     grid-template-columns: 50% 50%;
-
   }
 
-  .block-showcase__image{
+  .block-showcase__image {
     justify-self: end;
   }
 
@@ -858,87 +839,79 @@ a {
   }
 }
 
-
 /* footer section */
 
-.footer{
+.footer {
   background: #232323;
 }
 
-.footer__section{
+.footer__section {
   padding: 2rem;
   border-bottom: 1px solid #393939;
 }
 
-.footer__heading{
+.footer__heading {
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.footer__brand{
+.footer__brand {
   margin-top: 5rem;
   text-align: center;
 }
 
-.footer__copyright{
+.footer__copyright {
   font-size: 2.1rem;
   color: #fff;
-  opacity: .3;
-
+  opacity: 0.3;
 }
 
-.footer a{
+.footer a {
   color: #777;
   transition: color 0.3s;
-
 }
 
-.footer a:hover{
+.footer a:hover {
   color: #fff;
-
 }
 
-.footer__section .list{
+.footer__section .list {
   margin: 0;
 }
 
-.footer__brand img{
+.footer__brand img {
   /* TODO: consider adding this too all images */
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  
-  .footer__sections{
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr) );
-
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 
-  .footer .collapsible__chevron{
+  .footer .collapsible__chevron {
     display: none;
   }
 
-  .footer .collapsible__content{
+  .footer .collapsible__content {
     opacity: 1;
     max-height: 100%;
   }
 
-  .footer__brand{
+  .footer__brand {
     order: -1;
     margin-top: 1rem;
   }
 
-  .footer__copyright{
+  .footer__copyright {
     font-size: 1.5rem;
   }
 
-  .footer__section{
+  .footer__section {
     border-bottom: 0;
   }
 
-  .footer__heading{
+  .footer__heading {
     font-size: 1.6rem;
   }
-
-
 }
