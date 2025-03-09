@@ -71,14 +71,7 @@
         </header>
 
         <picture data-aos="zoom-in">
-          <source
-            type="image/webp"
-            srcset="./images/banner@1x.webp 1x ./images/banner@2x.webp 2x "
-          />
-          <source
-            type="image/png"
-            srcset="./images/banner@1x.png 1x ./images/banner@2x.png 2x "
-          />
+          <source type="image/png" srcset="./images/banner.png" />
           <img class="hero__image" src="./images/banner.png" alt="" />
         </picture>
       </div>
@@ -207,7 +200,7 @@
         </p>
       </header>
 
-      <ariticle class="grid grid--1x2 feature">
+      <article class="grid grid--1x2 feature">
         <!-- 
       this is the features block for the features of the site 
     -->
@@ -233,15 +226,12 @@
         </div>
 
         <picture data-aos="fade-right" data-aos-duration="500">
-          <source
-            type="image/png"
-            srcset="./images/easy.png 1x ./images/easy.png 2x "
-          />
+          <source type="image/png" srcset="./images/easy.png" />
           <img class="feature__image" src="./images/easy.png" alt="" />
         </picture>
-      </ariticle>
+      </article>
 
-      <ariticle class="grid grid--1x2 feature">
+      <article class="grid grid--1x2 feature">
         <!-- 
       this is the features block for the features of the site 
     -->
@@ -267,15 +257,12 @@
         </div>
 
         <picture data-aos="fade-left" data-aos-duration="500">
-          <source
-            type="image/png"
-            srcset="./images/easy.png 1x ./images/easy.png 2x "
-          />
+          <source type="image/png" srcset="./images/easy.png" />
           <img class="feature__image" src="./images/easy.png" alt="" />
         </picture>
-      </ariticle>
+      </article>
 
-      <ariticle class="grid grid--1x2 feature">
+      <article class="grid grid--1x2 feature">
         <!-- 
       this is the features block for the features of the site 
     -->
@@ -301,13 +288,10 @@
         </div>
 
         <picture data-aos="fade-right" data-aos-duration="500">
-          <source
-            type="image/png"
-            srcset="./images/easy.png 1x ./images/easy.png 2x "
-          />
+          <source type="image/png" srcset="./images/easy.png" />
           <img class="feature__image" src="./images/easy.png" alt="" />
         </picture>
-      </ariticle>
+      </article>
     </section>
 
     <!-- showcase block -->
@@ -324,10 +308,7 @@
           data-aos="fade-right"
           data-aos-duration="500"
         >
-          <source
-            type="image/png"
-            srcset="./images/ipad.png 1x ./images/ipad.png 2x "
-          />
+          <source type="image/png" srcset="./images/ipad.png" />
           <img src="./images/ipad.png" alt="" />
         </picture>
 
@@ -469,27 +450,31 @@
       <div
         class="container grid footer__sections"
         data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos-duration="800"
       >
         <section class="collapsible collapsible--expanded footer__section">
           <!-- a collapsible component -->
 
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 1</h2>
 
             <!-- the icon component -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="./images/chevron_sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
 
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#"><li class="list__item">Website Hosting</li></a>
-              <a href="#"
-                ><li class="list__item">Free Automated wordpress</li></a
-              >
-              <a href="#"><li class="list__item">Migrations</li></a>
+              <a href="#">
+                <li class="list__item">Website Hosting</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Free Automated wordpress</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Migrations</li>
+              </a>
             </ul>
           </div>
         </section>
@@ -497,20 +482,26 @@
         <section class="collapsible footer__section">
           <!-- a collapsible component -->
 
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 2</h2>
 
             <!-- the icon component -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="./images/chevron_sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
 
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#"><li class="list__item">About</li></a>
-              <a href="#"><li class="list__item">Affiliates</li></a>
-              <a href="#"><li class="list__item">Blog</li></a>
+              <a href="#">
+                <li class="list__item">About</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Affiliates</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Blog</li>
+              </a>
             </ul>
           </div>
         </section>
@@ -518,20 +509,26 @@
         <section class="collapsible footer__section">
           <!-- a collapsible component -->
 
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 3</h2>
 
             <!-- the icon component -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="./images/chevron_sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
 
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#"><li class="list__item">Contact</li></a>
-              <a href="#"><li class="list__item">Knowledge Base</li></a>
-              <a href="#"><li class="list__item">FAQ</li></a>
+              <a href="#">
+                <li class="list__item">Contact</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Knowledge Base</li>
+              </a>
+              <a href="#">
+                <li class="list__item">FAQ</li>
+              </a>
             </ul>
           </div>
         </section>
@@ -539,20 +536,26 @@
         <section class="collapsible footer__section">
           <!-- a collapsible component -->
 
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 3</h2>
 
             <!-- the icon component -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="./images/chevron_sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
 
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#"><li class="list__item">Domain Checker</li></a>
-              <a href="#"><li class="list__item">Domain Transfer</li></a>
-              <a href="#"><li class="list__item">Free Domain</li></a>
+              <a href="#">
+                <li class="list__item">Domain Checker</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Domain Transfer</li>
+              </a>
+              <a href="#">
+                <li class="list__item">Free Domain</li>
+              </a>
             </ul>
           </div>
         </section>
