@@ -24,7 +24,7 @@ This project was primarily built to:
 ## Usage  
 1. Clone the repository:  
    ```bash  
-   https://github.com/IsaacSemb/html-css-practice-03-03-2025.git
+   git clone https://github.com/IsaacSemb/html-css-practice-03-03-2025.git
    ```  
 2. Open the `index.html` file in a browser  
 3. Modify and expand upon the template for future projects  
