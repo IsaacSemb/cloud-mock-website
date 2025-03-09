@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- local css -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- animation css from aos library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,7 +47,7 @@
     <!-- hero section -->
     <section class="block block--dark block--skewed--left hero">
       <div class="container grid grid--1x2">
-        <header class="hero__content block__header">
+        <header class="hero__content block__header" data-aos="zoom-in">
           <h1 class="block__heading">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">
             Deploy your website in less than 60 seconds
@@ -50,7 +55,7 @@
           <button class="btn btn--accent btn--stretched">button</button>
         </header>
 
-        <picture>
+        <picture data-aos="zoom-in">
           <source
             type="image/webp"
             srcset="./images/banner@1x.webp 1x ./images/banner@2x.webp 2x "
@@ -65,7 +70,7 @@
     </section>
 
     <!-- domain block -->
-    <section class="block container block-domain">
+    <section class="block container block-domain" data-aos="fade-up" data-aos-duration="500">
       <header class="block__header">
         <h2>starting at $9 per month</h2>
         <p>
@@ -90,7 +95,7 @@
         </button>
       </div>
 
-      <ul class="list block-domain__prices">
+      <ul class="list block-domain__prices" >
         <li>
           <span class="badge badge--secondary"> .com $9 </span>
         </li>
@@ -105,7 +110,7 @@
     <!-- payment block -->
     <section class="block container block-plans">
       <div class="grid grid--1x3">
-        <div class="plan">
+        <div class="plan" data-aos="fade-right" data-aos-duration="500" >
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__name">Entry</h3>
@@ -127,7 +132,7 @@
           </div>
         </div>
 
-        <div class="plan">
+        <div class="plan" data-aos="zoom-in" data-aos-duration="500">
           <div class="card card--primary plan--popular">
             <header class="card__header">
               <h3 class="plan__name">Entry</h3>
@@ -149,7 +154,7 @@
           </div>
         </div>
 
-        <div class="plan">
+        <div class="plan" data-aos="fade-left" data-aos-duration="500">
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__name">Entry</h3>
@@ -175,8 +180,8 @@
 
     <!-- features block  -->
 
-    <section class="block container">
-      <header class="block__header">
+    <section class="block container" >
+      <header class="block__header" data-aos="fade-up" data-aos-duration="500">
         <h2>Host on the Cloud to keep Growing</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. In, culpa?
@@ -188,7 +193,7 @@
       this is the features block for the features of the site 
     -->
 
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-left" data-aos-duration="500">
           <!-- the icon component -->
           <span class="icon-container">
             <svg class="icon icon--primary">
@@ -204,7 +209,7 @@
           <a href="#" class="link-arrow">learn more</a>
         </div>
 
-        <picture>
+        <picture data-aos="fade-right" data-aos-duration="500">
           <source
             type="image/png"
             srcset="./images/easy.png 1x ./images/easy.png 2x "
@@ -218,7 +223,7 @@
       this is the features block for the features of the site 
     -->
 
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-right" data-aos-duration="500">
           <!-- the icon component -->
           <span class="icon-container">
             <svg class="icon icon--primary">
@@ -234,7 +239,7 @@
           <a href="#" class="link-arrow">learn more</a>
         </div>
 
-        <picture>
+        <picture data-aos="fade-left" data-aos-duration="500">
           <source
             type="image/png"
             srcset="./images/easy.png 1x ./images/easy.png 2x "
@@ -248,7 +253,7 @@
       this is the features block for the features of the site 
     -->
 
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-left" data-aos-duration="500">
           <!-- the icon component -->
           <span class="icon-container">
             <svg class="icon icon--primary">
@@ -264,7 +269,7 @@
           <a href="#" class="link-arrow">learn more</a>
         </div>
 
-        <picture>
+        <picture data-aos="fade-right" data-aos-duration="500">
           <source
             type="image/png"
             srcset="./images/easy.png 1x ./images/easy.png 2x "
@@ -277,11 +282,11 @@
     <!-- showcase block -->
     <section class="block block--dark block--skewed--right block-showcase">
       <header class="block__header">
-        <h2 class="block__heading">User-friendly Control Panel</h2>
+        <h2 class="block__heading" data-aos="zoom-in" data-aos-duration="500" >User-friendly Control Panel</h2>
       </header>
 
       <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
+        <picture class="block-showcase__image" data-aos="fade-right" data-aos-duration="500">
           <source
             type="image/png"
             srcset="./images/ipad.png 1x ./images/ipad.png 2x "
@@ -292,7 +297,7 @@
         <!-- <img class="block-showcase__image" src="./images/ipad.png" alt="" /> -->
 
         <ul class="list">
-          <li>
+          <li data-aos="fade-up" data-aos-duration="1000">
             <div class="media">
               <div class="media__image">
                 <span class="icon-container">
@@ -313,7 +318,7 @@
             </div>
           </li>
 
-          <li>
+          <li data-aos="fade-up" data-aos-duration="1000"> 
             <div class="media">
               <div class="media__image">
                 <span class="icon-container">
@@ -333,7 +338,7 @@
             </div>
           </li>
 
-          <li>
+          <li data-aos="fade-up" data-aos-duration="1000">
             <div class="media">
               <div class="media__image">
                 <span class="icon-container">
@@ -358,7 +363,7 @@
 
     <!-- tesimonial block -->
     <section class="block">
-      <header class="block__header">
+      <header class="block__header" data-aos="fade-up" data-aos-duration="1000">
         <h2>What our customers are saying</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
@@ -372,18 +377,18 @@
         this is a testimonial section for what customersa said about the product
       -->
           <div class="grid grid--1x2">
-            <div class="testimonial__image">
+            <div class="testimonial__image" data-aos="fade-right" data-aos-duration="500">
               <img
                 src="./images/testimonial.jpg"
                 alt="happy smiling customer"
               />
-              <span class="icon-container icon-container--accent">
+              <span class="icon-container icon-container--accent" data-aos="zoom-in" data-aos-duration="2000">
                 <svg class="icon icon--small icon--white">
                   <use xlink:href="./images/sprite.svg#quotes"></use>
                 </svg>
               </span>
             </div>
-            <blockquote class="quote">
+            <blockquote class="quote" data-aos="fade-left" data-aos-duration="1000">
               <p class="quote__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
                 tenetur rem at recusandae est iste quos architecto eligendi
@@ -412,7 +417,7 @@
     <!-- footer block  -->
 
     <footer class="block block--dark footer">
-      <div class="container grid footer__sections">
+      <div class="container grid footer__sections" data-aos="fade-up" data-aos-duration="2000">
         <section class="collapsible collapsible--expanded footer__section">
           <!-- a collapsible component -->
 
@@ -506,6 +511,13 @@
       </div>
     </footer>
 
+    <!-- local js -->
     <script src="js/script.js"></script>
+
+    <!-- animation aos js for scroll animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
