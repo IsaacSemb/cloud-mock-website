@@ -1,7 +1,14 @@
 # HTML CSS capstone project  
 
 A simple HTML and CSS project that serves as a template for future projects.
-This project was created to practice and reinforce fundamental web development concepts.  
+This project was created to practice and reinforce fundamental web development concepts.
+
+## Live Demo 🚀
+
+Click the link below to check out the live demo:
+
+🔗 [Semb Cloud Demo](https://semb-cloud.netlify.app/)
+
 
 ## Features  
 - Clean and structured HTML  
