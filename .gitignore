@@ -3,5 +3,6 @@ Moshify
 Code_Along
 .vscode
 node_modules
-dist
 .cache
+.parcelrc
+.htmlnanorc

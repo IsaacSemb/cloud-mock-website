@@ -1,0 +1,15 @@
+{
+  "name": "html-css-practice-03-03-2025",
+  "version": "1.0.0",
+  "description": "A simple HTML and CSS project that serves as a template for future projects.\r This project was created to practice and reinforce fundamental web development concepts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
