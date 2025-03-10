@@ -7,7 +7,7 @@ This project was created to practice and reinforce fundamental web development c
 
 Click the link below to check out the live demo:
 
-🔗 [Semb Cloud Demo](https://semb-cloud.netlify.app/)
+🔗 [website Demo](https://semb-cloud.netlify.app/)
 
 
 ## Features  
