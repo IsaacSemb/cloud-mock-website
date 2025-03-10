@@ -1,8 +1,5 @@
-*.zip
-Moshify
-Code_Along
 .vscode
 node_modules
 .cache
-.parcelrc
-.htmlnanorc
+# .parcelrc
+# .htmlnanorc
