@@ -1,7 +1,7 @@
 # HTML CSS capstone project  
 
-A simple HTML and CSS project that serves as a template for future projects.
-This project was created to practice and reinforce fundamental web development concepts.
+A simple HTML and CSS project that serves as a template for future projects. 
+This project was created to practice and reinforce fundamental web development concepts. 
 
 ## Live Demo 🚀
 
